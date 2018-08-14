@@ -13,5 +13,11 @@ namespace WebApp.FormPages
         {
 
         }
+
+        protected void btn_search_Click(object sender, EventArgs e)
+        {
+            ProjectCoursesObjectSource.Select();
+            DropDownList ll;
+        }
     }
 }
